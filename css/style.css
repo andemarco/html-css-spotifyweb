@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
   background-color: black;
+  font-size: 12px;
 }
 
 .wrapper {
@@ -16,15 +18,32 @@ body {
 ul {
   list-style: none;
 }
-
-
+a {
+  text-decoration: none;
+}
+.padding-10 {
+  padding: 10px;
+}
+.color-grey {
+  color: grey;
+}
+.color-white {
+  color: white;
+}
+.medium-weight {
+  font-weight: 600;
+}
+.bold-weight {
+  font-weight: bold;
+}
 /* MAIN */
 .main {
   display: flex;
   flex-direction: row;
-  height: calc(100% - 90px);
+  height: calc(100% - 70px);
   overflow: hidden;
 }
+
 /* MAIN NAV */
 .main-nav {
   display: flex;
@@ -35,14 +54,36 @@ ul {
   background: blue;
 }
 .main-nav-header {
-  background-color: purple;
+  background-color: black;
+}
+.main-nav-header > img {
+  height: 40px;
+}
+.main-nav-header ul li {
+  line-height: 24px;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+.main-nav-header ul li img {
+  vertical-align: middle;
+  height: 24px;
+  padding-right: 5px;
+  filter: brightness(50%);
+}
+.main-nav-header ul li a:hover,
+.main-nav-header ul li a:active,
+.main-nav-header ul li a:focus {
+  filter: brightness(200%)
+}
+
+.playlist-title h2 {
+  font-size: 1.1em;
+  padding-top: 10px;
 }
 .main-nav-main {
   overflow-y: auto;
   flex-grow: 2;
   background-color: lime;
-}
-.playlist {
 }
 .main-nav-footer {
   background-color: brown;
@@ -63,7 +104,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
   width: calc(100% - 240px);
-  height: 90px;
+  height: 70px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -73,7 +114,7 @@ ul {
   background-color: white;
 }
 .menu-genre {
-  padding-top: 90px;
+  padding-top: 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -82,11 +123,23 @@ ul {
 .menu-genre li{
   padding: 15px 20px;
 }
+.main-content-plays {
+  padding: 10px;
+}
+.main-content-plays-playlist {
+  display: flex;
+}
+.single-artist {
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  padding: 10px;
+}
 
 
 /* footer */
 .footer {
   width: 100%;
-  height: 90px;
+  height: 70px;
   background-color: pink;
 }
