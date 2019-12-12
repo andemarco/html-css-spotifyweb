@@ -44,6 +44,7 @@ a {
   overflow: hidden;
 }
 
+
 /* MAIN NAV */
 .main-nav {
   display: flex;
@@ -51,13 +52,18 @@ a {
   justify-content: space-between;
   width: 240px;
   height: 100%;
-  background: blue;
-}
-.main-nav-header {
   background-color: black;
 }
-.main-nav-header > img {
-  height: 40px;
+
+.img-logo {
+  height: 70px;
+  padding: 15px 0;
+}
+
+.border-green {
+  padding: 10px 6px;
+  border-left: 4px solid lightgreen;
+
 }
 .main-nav-header ul li {
   line-height: 24px;
@@ -75,19 +81,78 @@ a {
 .main-nav-header ul li a:focus {
   filter: brightness(200%)
 }
-
+.playlist-title {
+  line-height: 40px;
+}
 .playlist-title h2 {
   font-size: 1.1em;
-  padding-top: 10px;
 }
+.playlist-title a {
+  line-height: 35px;
+  font-size: 1.2em;
+}
+.playlist-title a span {
+  vertical-align: middle;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-color: grey;
+  text-align: center;
+  color: black;
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+.playlist-title a:hover,
+.playlist-title a:active,
+.playlist-title a:focus {
+  filter: brightness(150%)
+}
+.main-nav-main {
+  min-height: 90px;
+}
+.main-nav-main .playlist{
+  min-height: 90px;
+}
+.playlist li {
+  line-height: 25px;
+}
+.playlist li:hover,
+.playlist li:active,
+.playlist li:focus {
+  filter: brightness(150%)
+}
+
 .main-nav-main {
   overflow-y: auto;
   flex-grow: 2;
-  background-color: lime;
 }
-.main-nav-footer {
-  background-color: brown;
+.main-nav-footer .install-app {
+  border-bottom: 1px solid grey;
+  margin: 0px 10px;
 }
+.main-nav-footer .install-app a {
+  line-height: 30px;
+}
+.main-nav-footer .install-app a:hover,
+.main-nav-footer .install-app a:active,
+.main-nav-footer .install-app a:focus {
+  filter: brightness(150%)
+}
+.main-nav-footer .profile-pic span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-color: lightgrey;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.main-nav-footer .profile-pic a span img {
+  height: 100%;
+  width: 100%;
+}
+
 
 /* main content */
 .main-content {
