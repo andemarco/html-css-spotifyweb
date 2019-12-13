@@ -50,7 +50,7 @@ a {
 .main {
   display: flex;
   flex-direction: row;
-  height: calc(100% - 70px);
+  height: calc(100% - 90px);
   overflow: hidden;
 }
 
@@ -275,6 +275,31 @@ a {
 /* footer */
 .footer {
   width: 100%;
-  height: 70px;
-  background-color: pink;
+  height: 90px;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-between;
+}
+.on-air {
+  display: flex;
+  align-items: center;
+}
+.on-air span {
+  display: block;
+  font-size: 1.8em;
+  padding: 0 0 0 20px;
+}
+.on-air span:hover a {
+  color: white;
+}
+
+.on-air img {
+  height: 70%;
+}
+.on-air-title {
+  line-height: 16px;
+  padding-left: 8px;
+}
+.on-air-title a:hover {
+  text-decoration: underline;
 }
