@@ -15,19 +15,25 @@
       <main class="main">
         <section class="main-nav">
           <section class="main-nav-header">
-            <a class="padding-10" href="#"><img class="img-logo"src="img/logo.svg" alt="logo"></a>
-            <ul>
-              <li><a class="color-grey bold-weight border-green-left" href="#"><img src="img/home.svg" alt=""></i>Home</a></li>
-              <li><a class="color-grey bold-weight padding-15" href="#"><img src="img/search.svg" alt="">Cerca</a></li>
-              <li><a class="color-grey bold-weight padding-15" href="#"><img src="img/libreria.svg" alt="">La tua libreria</a></li>
+            <a class="padding-10 display-xs-none" href="#"><img class="img-logo"src="img/logo.svg" alt="logo"></a>
+            <ul class="display-xs-none">
+              <li><a class="color-grey bold-weight border-green-left display-xs-none" href="#"><img src="img/home.svg" alt=""></i>Home</a></li>
+              <li><a class="color-grey bold-weight padding-15 display-xs-none" href="#"><img src="img/search.svg" alt="">Cerca</a></li>
+              <li><a class="color-grey bold-weight padding-15 display-xs-none" href="#"><img src="img/libreria.svg" alt="">La tua libreria</a></li>
+            </ul>
+            <ul class="main-nav-header-xs display-none display-xs-block">
+              <li><a href="#"><img src="img/favicon.ico" alt="minilogo"></a></li>
+              <li><a href="#"><img src="img/home.svg" alt=""></a></li>
+              <li><a href="#"><img src="img/search.svg" alt=""></a></li>
+              <li><a href="#"><img src="img/libreria.svg" alt=""></a></li>
             </ul>
           </section>
           <section class="playlist-title padding-15">
-            <h2 class="color-white bold-weight">PLAYLIST</h2>
-            <a href="" class="color-grey bold-weight"><span><i class="fas fa-plus"></i></span>Crea Playlist</a>
+            <h2 class="color-white bold-weight display-xs-none">PLAYLIST</h2>
+            <a href="" class="color-grey bold-weight display-xs-none"><span><i class="fas fa-plus"></i></span>Crea Playlist</a>
           </section>
           <section class="main-nav-main padding-15">
-            <ul class="playlist">
+            <ul class="playlist  display-xs-none">
               <li><a class="color-grey bold-weight" href="#">Nome Playlist</a></li>
               <li><a class="color-grey bold-weight" href="#">Nome Playlist</a></li>
               <li><a class="color-grey bold-weight" href="#">Nome Playlist</a></li>
@@ -39,10 +45,12 @@
           </section>
           <section class="main-nav-footer">
             <div class="install-app">
-              <a class="color-grey bold-weight" href="#"><i class="far fa-arrow-alt-circle-down"></i> Installa app</a>
+              <a class="color-grey bold-weight  display-xs-none" href="#"><i class="far fa-arrow-alt-circle-down"></i> Installa app</a>
+              <span><i class="far fa-arrow-alt-circle-down display-none display-xs-block color-white"></i></span>
             </div>
             <div class="profile-pic padding-15">
-              <a class="color-white bold-weight" href="#"><span><img src="img/profile.svg" alt=""></span>Andrea De Marco</a>
+              <a class="color-white bold-weight  display-xs-none" href="#"><span><img src="img/profile.svg" alt=""></span>Andrea De Marco</a>
+              <a class="color-white bold-weight  display-none display-xs-block color-white" href="#"><span><img src="img/profile.svg" alt=""></span></a>
             </div>
           </section>
         </section>
@@ -63,8 +71,8 @@
           <div class="main-content-plays">
             <div class="padding-10">
               <h2 class="color-white bold-weight">Recently Played</h2>
-              <div class="main-content-plays-playlist">
-                <div class="single-artist">
+              <div class="main-content-plays-playlist line-height-md">
+                <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
                     <img src="img/metal_lifting.jpg" alt="metal cover">
                     <div class="layover hidden">
@@ -74,7 +82,7 @@
                   <a href="#"><h3 class="color-white bold-weight">Heavy Metal</h3></a>
                   <a href="#"><p class="color-grey bold-weight">Subtitle</p></a>
                 </div>
-                <div class="single-artist">
+                <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
                     <img src="img/stranger.jpeg" alt="Stranger Things">
                     <div class="layover hidden">
@@ -84,7 +92,7 @@
                   <a href="#"><h3 class="color-white bold-weight">Stranger Thing Vol. 1 (a Netflix Original Soundtrack)</h3></a>
                   <a href="#"><p class="color-grey bold-weight">Kyle Dixon & Michael Stein</p></a>
                 </div>
-                <div class="single-artist">
+                <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
                     <img src="img/aquietplace.jpeg" alt="a Quiet Place">
                     <div class="layover hidden">
@@ -94,7 +102,7 @@
                   <a href="#"><h3 class="color-white bold-weight">A quite Place</h3></a>
                   <a href="#"><p class="color-grey bold-weight">Subtitle</p></a>
                 </div>
-                <div class="single-artist">
+                <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
                     <img src="img/split.jpeg" alt="split">
                     <div class="layover hidden">
@@ -104,7 +112,7 @@
                   <a href="#"><h3 class="color-white bold-weight">Split</h3></a>
                   <a href="#"><p class="color-grey bold-weight">Subtitle</p></a>
                 </div>
-                <div class="single-artist">
+                <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
                     <img src="img/cure.jpeg" alt="A cure for wellness">
                     <div class="layover hidden">
@@ -114,7 +122,7 @@
                   <a href="#"><h3 class="color-white bold-weight">A cure for Wellness</h3></a>
                   <a href="#"><p class="color-grey bold-weight">Subtitle</p></a>
                 </div>
-                <div class="single-artist">
+                <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
                     <img src="img/sinister.jpeg" alt="Sinister">
                     <div class="layover hidden">
@@ -129,8 +137,8 @@
           <div class="padding-10">
             <h2 class="color-white bold-weight">Creato per Andrea</h2>
             <p class="color-grey bold-weight" >Più ascolti, più accurati saranno i suggerimenti</p>
-            <div class="main-content-plays-playlist">
-              <div class="single-artist">
+            <div class="main-content-plays-playlist line-height-md">
+              <div class="single-artist font-size-md">
                 <div class="single-artist-inside">
                   <img src="img/radar.jpeg" alt="Realease Radar">
                   <div class="layover hidden">
@@ -139,7 +147,7 @@
                 </div>
                 <a href="#"><h3 class="color-white bold-weight">Release Radar</h3></a>
               </div>
-              <div class="single-artist">
+              <div class="single-artist font-size-md">
                 <div class="single-artist-inside">
                   <img src="img/mixdaily.jpeg" alt="DailyMix">
                   <div class="layover hidden">
@@ -153,8 +161,8 @@
           <div class="padding-10">
             <h2 class="color-white bold-weight">Artisti più popolari</h2>
             <p class="color-grey bold-weight" >Più ascolti, più accurati saranno i suggerimenti</p>
-            <div class="main-content-plays-playlist">
-              <div class="single-artist">
+            <div class="main-content-plays-playlist line-height-md">
+              <div class="single-artist font-size-md">
                 <div class="single-artist-inside border-radius-50">
                   <img src="img/youg.jpeg" alt="LanaDelRey">
                   <div class="layover hidden">
@@ -163,7 +171,7 @@
                 </div>
                 <a href="#"><h3 class="color-white bold-weight">Lana de Rey</h3></a>
               </div>
-              <div class="single-artist">
+              <div class="single-artist font-size-md">
                 <div class="single-artist-inside border-radius-50">
                   <img src="img/einaudi.jpeg" alt="Ludovico Einaudi">
                   <div class="layover hidden">
@@ -180,8 +188,8 @@
       <!-- /main -->
 
       <!-- footer -->
-      <footer class="footer padding-10">
-        <div class="on-air">
+      <footer class="footer padding-10 font-size-md">
+        <div class="on-air font-size-md">
           <img src="img/sinister.jpeg" alt="">
           <div class="on-air-title">
             <a class="color-white bold-weight" href="#"><h3>Sinister</h3></a>
@@ -192,7 +200,7 @@
             <span><a class="color-grey bold-weight" href="#"><i class="far fa-folder"></i></a></span>
           </div>
         </div>
-        <div class="player">
+        <div class="player font-size-md">
           <div class="command-player color-white">
             <i class="fas fa-random"></i>
             <i class="fas fa-step-backward"></i>
@@ -208,7 +216,7 @@
             <span class="color-white bold-weight">3:35</span>
           </div>
         </div>
-        <div class="command-right">
+        <div class="command-right font-size-md">
           <div class="command-btn">
             <a href="#"><i class="fas fa-list color-white bold-weight"></i></a>
             <a href="#"><i class="fas fa-tv color-white bold-weight"></i></a>
