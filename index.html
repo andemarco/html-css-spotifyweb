@@ -92,13 +92,13 @@
               <div class="main-content-plays-playlist line-height-md">
                 <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
-                    <img src="img/metal_lifting.jpg" alt="metal cover">
+                    <img id="CoverPezzo" src="img/metal_lifting.jpg" alt="metal cover">
                     <div class="layover hidden">
                       <i class="far fa-play-circle"></i>
                     </div>
                   </div>
-                  <a href="#"><h3 class="color-white bold-weight">Heavy Metal</h3></a>
-                  <a href="#"><p class="color-grey bold-weight">Subtitle</p></a>
+                  <a href="#"><h3 id="NomeArtista" class="color-white bold-weight">Heavy Metal</h3></a>
+                  <a href="#"><p id="TitoloPezzo" class="color-grey bold-weight">Subtitle</p></a>
                 </div>
                 <div class="single-artist font-size-md">
                   <div class="single-artist-inside">
@@ -209,7 +209,7 @@
       <!-- footer -->
       <!-- FOOTER LEFT -->
       <footer class="footer padding-10 font-size-md">
-        <div class="on-air font-size-md">
+        <div class="on-air">
           <img src="img/sinister.jpeg" alt="">
           <div class="on-air-title">
             <a class="color-white bold-weight" href="#"><h3>Sinister</h3></a>
@@ -222,7 +222,7 @@
         </div>
         <!-- /FOOTER LEFT -->
         <!-- FOOTER CENTER -->
-        <div class="player font-size-md">
+        <div class="player">
           <div class="command-player color-white">
             <i class="fas fa-random"></i>
             <i class="fas fa-step-backward"></i>
@@ -230,12 +230,14 @@
             <i class="fas fa-step-forward"></i>
             <i class="fas fa-redo-alt"></i>
           </div>
-          <div class="player-time">
+          <div class="player-bottom">
             <span class="color-white bold-weight timing">1:25</span>
-            <div class="player-time-layover">
-              <i class="fas fa-circle"></i>
-            </div>
-            <span class="color-white bold-weight">3:35</span>
+              <div class="player-line">
+                  <div class="player-time-layover">
+                    <i class="fas fa-circle"></i>
+                  </div>
+              </div>
+              <span class="color-white bold-weight">3:35</span>
           </div>
         </div>
         <!-- /FOOTER CENTER -->
@@ -257,5 +259,7 @@
       <!-- /footer -->
     </div>
     <!-- /wrapper -->
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
