@@ -69,7 +69,7 @@ a {
   height: 100%;
   background-color: black;
 }
-
+/* MAIN NAV LEFT HEADER */
 .img-logo {
   height: 70px;
   padding: 15px 0;
@@ -94,6 +94,7 @@ a {
 .main-nav-header ul li a:focus {
   filter: brightness(200%)
 }
+/* MAIN NAV LEFT MAIN */
 .playlist-title {
   line-height: 40px;
 }
@@ -138,6 +139,7 @@ a {
   overflow-y: auto;
   flex-grow: 2;
 }
+/* MAIN NAV LEFT FOOTER */
 .main-nav-footer .install-app {
   border-bottom: 1px solid grey;
   margin: 0px 15px;
@@ -167,6 +169,7 @@ a {
 
 
 /* main content */
+/* MAIN CONTENT UP BAR */
 .main-content {
   width: calc(100% - 240px);
   height: 100%;
@@ -202,6 +205,7 @@ a {
 .btn:focus {
   transform: scale(1.1);
 }
+/* MAIN CONTENT MENU */
 .menu-genre {
   padding-top: 70px;
   display: flex;
@@ -226,9 +230,6 @@ a {
   width: 22px;
   border-bottom: 2px lightgreen solid;
 }
-.menu-genre li {
-  border-bottom:
-}
 .main-content-plays {
   padding: 10px;
   line-height: 25px;
@@ -238,6 +239,7 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+/* INSIDE MAIN CONTENT */
 .single-artist {
   width: calc(100%/6);
   padding: 10px;
@@ -287,6 +289,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
+/* FOOTER LEFT SIDE */
 .on-air {
   display: flex;
   align-items: center;
@@ -309,6 +312,7 @@ a {
 .on-air-title a:hover {
   text-decoration: underline;
 }
+/* FOOTER CENTER */
 .command-player {
   font-size: 1.3em;
 }
@@ -384,6 +388,7 @@ a {
 .player-time:not(.timing):hover .player-time-layover i {
   visibility: visible;
 }
+/* FOOTER RIGHT SIDE */
 .command-right {
   display: flex;
   align-items: center;
@@ -507,6 +512,15 @@ a {
   .command-right i{
     padding: 0 2px;
   }
+  .player {
+    margin: 0 auto;
+  }
+  .on-air span {
+    padding: 0 0 0 7px;
+  }
+  .volume-bar {
+    width: 40px;
+  }
 }
 /* SM QUERY */
 @media screen and (min-width: 536px) and (max-width: 768px){
@@ -534,7 +548,7 @@ a {
 /* MD QUERY */
 @media screen and (min-width: 768px) and (max-width: 1200px){
   .font-size-md {
-    font-size: 0.8em;
+    font-size: 1em;
   }
   .line-height-md {
     line-height: 15px;
