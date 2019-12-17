@@ -76,7 +76,7 @@ a {
   padding: 15px 0;
 }
 .border-green-left {
-  padding: 10px 6px;
+  padding: 10px 11px;
   border-left: 4px solid lightgreen;
 }
 .main-nav-header ul li {
@@ -229,8 +229,8 @@ a {
   content : "";
   position: absolute;
   left: calc(50% - (25px / 2));
-  top: 15px;
-  width: 22px;
+  top: 18px;
+  width: 25px;
   border-bottom: 2px lightgreen solid;
 }
 .main-content-plays {
